@@ -29,7 +29,7 @@ RSpec.describe Museum do
       dmns.add_exhibit(dead_sea_scrolls)
       dmns.add_exhibit(imax)
       
-      expect(dmns.exhibits).to eq(gems_and_minerals, dead_sea_scrolls, imax)
+      expect(dmns.exhibits).to eq([gems_and_minerals, dead_sea_scrolls, imax])
     end
   end
 end
