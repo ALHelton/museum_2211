@@ -40,6 +40,5 @@ RSpec.describe Museum do
       expect(dmns.recommend_exhibits(patron_1)).to eq([dead_sea_scrolls, gems_and_minerals])
       expect(dmns.recommend_exhibits(patron_2)).to eq([imax])
     end
-    end
   end
 end
