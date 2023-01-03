@@ -1,4 +1,8 @@
 class Museum
-  def initialize(name)
+  attr_reader :name,
+              :exhibits
+  def initialize(name, exhibits = [])
+    @name = name
+    @exhibits = exhibits
   end
 end
