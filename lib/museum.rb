@@ -5,4 +5,7 @@ class Museum
     @name = name
     @exhibits = exhibits
   end
+
+  
+
 end
