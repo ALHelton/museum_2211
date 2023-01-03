@@ -11,4 +11,8 @@ class Museum
     @exhibits << exhibit
   end
 
+  def add_interest(interest)
+    
+  end
+
 end
